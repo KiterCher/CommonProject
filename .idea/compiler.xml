@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-support" />
+        <module name="common-service" />
+        <module name="base-api" />
+        <module name="common-part" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="center-admin" target="1.8" />
+      <module name="center-common" target="1.8" />
+      <module name="center-server" target="1.8" />
+      <module name="screen-center" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

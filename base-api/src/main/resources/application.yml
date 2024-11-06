@@ -1,0 +1,8 @@
+#服务端口
+# nohup java -jar center-admin.jar > center-admin.log 2>&1 &
+server:
+  port: 8092
+
+swagger:
+    enabled: true
+    pathMapping: /
